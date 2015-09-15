@@ -12,16 +12,16 @@
  however it is not. For instance we may have several already completed subassemblies on hand and wish to use those first before making new
  subassemblies from the basic parts.
 
-### Botania
- : A botanical magic style [mod] for [Minecraft] by @Vazkii with a focus on
- on automation and making life easier for the player.
- https://github.com/Vazkii/Botania
- 
 ### Block
  : In [Minecraft] the world is constructed of 1 meter cubes called blocks.
  As well as being pregenerated in the Minecraft world, blocks are also 
  available as placable items.
  
+### Botania
+ : A botanical magic style [mod] for [Minecraft] by @Vazkii with a focus on
+ on automation and making life easier for the player.
+ https://github.com/Vazkii/Botania
+
 ### Entity
  : Actors in the [Minecraft] game. This includes anything that can't be
  represented as a block that is the same as all other blocks of its type. They
