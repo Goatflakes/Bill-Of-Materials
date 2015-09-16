@@ -1,3 +1,6 @@
+### Basic Parts
+ Parts which can not be broken down in to further subassemblies.
+
 ### Bill of materials
  A [directed acyclic graph] (DAG) representing the hierarchical break down
  of all materials used in the construction of a desired end product. It is
@@ -25,9 +28,32 @@
  https://github.com/Vazkii/Botania
 
 ### Breakdown
- An list of subassemblies of a recipe, down to a certain desired level. It may
- be to the level of basic items or it may be some higher level, for instance
- down to a list of named subassemblies.
+ An list of requirements to build an item or set of items. It is the recursive
+ expansion of the subassemblies or ingredients of a recipe, down to a certain
+ desired level.
+ 
+ It may be broken down to the level of [basic parts] or it may be some higher
+ level, for instance down to a set of [on hand] subassemblies. Once one of
+ these subassemblies is found, one is removed from the set of on hand parts and
+ added to the breakdown or requirement set. That subassembly is not further
+ expanded, but the other ingredients will be.
+ 
+ Expansion of remaining parts then proceeds until either they are found in the
+ set of on hand items or until basic parts are reached. If basic parts are
+ reached there are two possibilities.
+   1. the basic part is on hand, in which case they are handled the same as
+   other on hand items, that is removed from on hand and added to the breakdown
+   2. they are not on hand, in which case they are added to the set of parts
+   required but not on hand, and also added to the breakdown.
+
+ It may also be useful to allow breakdowns to stop at non basic parts that are 
+ not necessarily on hand. In that case if such a part is encountered but not on
+ hand it will be added to the list of required but not on hand parts rather
+ than proceeding to a full breakdown to basic parts.
+ 
+ Finally, it may be useful in the last case to attempt to break down to basic
+ parts, but if the required basic parts are not on hand, to add the listed non
+ basic part rather than the full breakdown to basic parts.
 
 ### Entity
  Actors in the [Minecraft] game. This includes anything that can't be
@@ -118,6 +144,9 @@
 ### Mods
  A *modification* to [Minecraft], often that adds [blocks] and [machines]
  and other content to the game and that changes game play.
+
+### On Hand
+ Parts available and already acquired.
 
 ### Ore
  In the Minecraft game metal is found usually by mining ores. They are then
