@@ -1,4 +1,4 @@
-### Basic Parts
+### Basic Part
  Parts which can not be broken down in to further subassemblies.
 
 ### Bill of materials
@@ -32,7 +32,7 @@
  expansion of the subassemblies or ingredients of a recipe, down to a certain
  desired level.
  
- It may be broken down to the level of [basic parts](#basic-parts) or it may be
+ It may be broken down to the level of [basic parts](#basic-part) or it may be
  some higher level, for instance down to a set of [on hand](#on-hand) 
  subassemblies. Once one of these subassemblies is found, one is removed from 
  the set of on hand parts and added to the breakdown or requirement set. That 
