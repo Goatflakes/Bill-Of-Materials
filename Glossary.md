@@ -24,6 +24,11 @@
  on automation and making life easier for the player.
  https://github.com/Vazkii/Botania
 
+### Breakdown
+ An list of subassemblies of a recipe, down to a certain desired level. It may
+ be to the level of basic items or it may be some higher level, for instance
+ down to a list of named subassemblies.
+
 ### Entity
  Actors in the [Minecraft] game. This includes anything that can't be
  represented as a block that is the same as all other blocks of its type. They
