@@ -133,6 +133,10 @@
  looses durability when making the recipe, but that is is still returned if not
  completely worn out.
  
+### Inventory
+ A container to store [items](#item). The input, output and solid fuel slots
+ of a [machine](machine) are considered an inventory.
+
 ### Item
  A material object in [Minecraft](#minecraft) that doesn't currently represent
  an [entity](#entity) or a placed [block](#block). Items exist in an inventory
