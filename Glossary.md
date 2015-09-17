@@ -134,8 +134,9 @@
  completely worn out.
  
 ### Inventory
- A container to store [items](#item). The input, output and solid fuel slots
- of a [machine](machine) are considered an inventory.
+ A container to store [items](#item). The player has a personal inventory. The
+ input, output and solid fuel slots of a [machine](machine) are considered an
+ inventory.
 
 ### Item
  A material object in [Minecraft](#minecraft) that doesn't currently represent
