@@ -117,7 +117,7 @@
  consider the ingot the [basic part](#basic-part) when dealing with metals.
  
  Ingots can be reversibly broken down into 9 smaller items called *nuggets*
- and can usually be reversibly made into a placable [block](#block) form, 
+ and can usually also be reversibly made into a placable [block](#block) form, 
  although depending on what [mods](#mod) are installed, a 
  [machine](#machine) might be necessary to accomplish any of these steps for
  some metals.
@@ -141,7 +141,7 @@
 ### Item
  A material object in [Minecraft](#minecraft) that doesn't currently represent
  an [entity](#entity) or a placed [block](#block). Items exist in an inventory
- and can be used as crafting [ingredients](#ingredients). Some can be worn,
+ and can be used as crafting [ingredients](#ingredient). Some can be worn,
  eaten, used as tools, etc. These sorts of items often have durability and
  other data which distinguishes them from other items of the same type. Others
  are simply blocks waiting to be placed. Both kinds find use in crafting other 
@@ -155,9 +155,9 @@
  [recipe](#recipe)
  
  To complete a recipe, Machines typically require [power](#power) or
- [fuel](#fuel) as  well as material inputs in the form of [items](#items).
+ [fuel](#fuel) as  well as material inputs in the form of [items](#item).
  They may also require a variety of liquids, [Thaumcraft](#thaumcraft)
- essentia or vis or other inputs as well. All these things Should properly be
+ essentia or vis or other inputs as well. All these things should properly be
  considered part of the recipe. 
  
  The use of a machine to complete a recipe needs to be tracked so it is
@@ -169,19 +169,19 @@
  A popular sandbox construction and exploration game produced by Mojang and
  originally authored by Markus "Notch" Persson @notch.
  
- Every static piece of geometry is a is a 1 meter cube, called a
- [block](#block). The player builds things by placing, collecting, processing
- and destroying these blocks.
+ Every static piece of geometry is a 1 meter cube, called a [block](#block).
+ The player builds things by placing, collecting, processing and destroying
+ these blocks.
  
- The player does this by crafting (items)[#items] and blocks made from
+ The player does this by crafting [items](#item) and blocks made from
  resources gathered by breaking blocks. Items can also be found on enemies or
  even traded with villagers.
  
  Some geometry appears to be are smaller than the 1m cube, both
- visually and their [hit box](#hit-box), but still, nothing else can fit in
+ visually and in their [hit box](#hit-box), but still, nothing else can fit in
  the same cubic position, so in effect they fill up the entire 1m cube.
  
- Also present are a  variety of [entity](#entities) which may or may not be
+ Also present are a  variety of [entities](#entity) which may or may not be
  tied to a particular collection of 1x1x1m cubes. Still, even the free moving
  entities are almost invariably constructed of cuboids, including the player.
 
@@ -205,7 +205,7 @@
  
 ### Power
  Many modded machines add some sort of power to run their machines. Over
- time there has also been some standardisation of power system across
+ time there has also been some standardisation of power system across different
  [mods](#mod). For instance RF and EU. If necessary these power requirements
  can be tracked the same as other consumable [ingredients](#ingredient).
 
@@ -214,9 +214,9 @@
  "burn" so it usually is considered a type of power rather than than a liquid
  fuel.
  
- There are other sorts of power such as Botania's mana and Thaumcraft vis,
- but these can be tracked just the same as other sorts of power or other
- consumable ingredient.
+ There are other sorts of power such as [Botania's](#botania) mana and
+ [Thaumcraft's](#thaumcraft) vis, but these can be tracked just the same as
+ other sorts of power or other consumable ingredient.
  
 ### Recipe
  A list of subassemblies that can be put together to make a desired end
