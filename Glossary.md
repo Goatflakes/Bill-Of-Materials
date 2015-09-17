@@ -234,3 +234,8 @@ heavily loaded. But usually it can be considered to be 1/20th of a second.
  
 ### Vanilla
  [Minecraft](#minecraft) without any additional [mods](#mod).
+ 
+ Additionally a mod that has add-on mods for it itself is sometimes referred to
+ as "vanilla", usually qualified with the name of the mod. For instance
+ "vanilla [Thaumcraft](#thaumcraft)". This means "Thaumcraft without any
+ add-ons for Thaumcraft".
