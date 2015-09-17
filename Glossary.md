@@ -135,7 +135,7 @@
  
 ### Inventory
  A container to store [items](#item). The player has a personal inventory. The
- input, output and solid fuel slots of a [machine](machine) are considered
+ input, output and solid fuel slots of a [machine](#machine) are considered
  inventories.
 
 ### Item
