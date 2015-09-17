@@ -1,7 +1,7 @@
 ### Basic Part
  Parts which can not be broken down in to further subassemblies.
 
-### Bill of materials
+### Bill of Materials
  A directed acyclic graph (DAG) representing the hierarchical break down
  of all materials used in the construction of a desired end product. It is
  hierarchical because the desired end product may contain a collection of
@@ -217,6 +217,12 @@
  There are other sorts of power such as [Botania's](#botania) mana and
  [Thaumcraft's](#thaumcraft) vis, but these can be tracked just the same as
  other sorts of power or other consumable ingredient.
+ 
+### Production Chain
+ Similar to a [Bill of Materials](#bill-of-materials) but instead of listing
+ all the ways to *produce* the item it lists the *uses* of an item. This is
+ especially useful for evaluating what [ore](#ore) processing
+ [machines](#machine) to produce.
  
 ### Recipe
  A list of subassemblies that can be put together to make a desired end
