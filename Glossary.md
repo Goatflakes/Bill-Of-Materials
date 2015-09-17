@@ -111,7 +111,7 @@
 
 ### Ingot
  In [Minecraft](#minecraft) metallic [ores](#ore) are melted down or
- otherwise processed into [items](#items) called ingots.
+ otherwise processed into [items](#item) called ingots.
  
  Although ingots have a [recipe](#recipe), in many cases it makes more sense to
  consider the ingot the [basic part](#basic-part) when dealing with metals.
@@ -135,8 +135,8 @@
  
 ### Inventory
  A container to store [items](#item). The player has a personal inventory. The
- input, output and solid fuel slots of a [machine](machine) are considered an
- inventory.
+ input, output and solid fuel slots of a [machine](machine) are considered
+ inventories.
 
 ### Item
  A material object in [Minecraft](#minecraft) that doesn't currently represent
